@@ -2,3 +2,41 @@
     max-width: 800px;
     margin: 50px auto ;
 }
+
+.page_tit {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.tit {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.way li {
+    padding-left: 15px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.way li:after{
+    content: "";
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #9b9b9b;
+    position: absolute;
+    top: 9px;
+    left: 0;
+} 
+.caution {
+    color: rgb(236, 87, 7);
+    font-weight: 600;
+
+}
+
+@media ( max-width : 800px ) {
+    .container {
+        padding: 0 20px
+    }
+}
