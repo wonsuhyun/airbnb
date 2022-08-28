@@ -39,11 +39,17 @@
     margin-right: 10px;
 }
 .way li {
-    padding-left: 15px;
-    position: relative;
+    
     margin-bottom: 10px;
 }
-.way li:after{
+.img_wrap{
+    margin-bottom: 5px;
+}
+.way li p{
+    padding-left: 15px;
+    position: relative;
+}
+.way li p:after{
     content: "";
     width: 3px;
     height: 3px;
